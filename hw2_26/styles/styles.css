@@ -1,0 +1,166 @@
+/* hover focus  */
+
+.menu [href]:hover {
+  color: #2196f3;
+}
+.menu [href]:focus {
+  color: #2196f3;
+}
+.menu [href]:active {
+  color: red;
+}
+.menu [href]:visited {
+  color: green;
+}
+button {
+  background-color: #f5f4fa;
+  color: #212121;
+}
+
+button:hover {
+  background-color: #2196f3;
+  color: #fff;
+}
+button:focus {
+  background-color: #2196f3;
+  color: #fff;
+}
+/* cursor  */
+button {
+  cursor: pointer;
+}
+/* logo color  */
+nav .bluepart {
+  color: #2196f3;
+}
+
+nav .blackpart {
+  color: #000;
+}
+footer .bluepart {
+  color: #2196f3;
+}
+
+footer .blackpart {
+  color: #fff;
+}
+
+/* text color, fonts,size, style  */
+
+html,
+a,
+li {
+  font-family: "roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  text-decoration: none;
+  line-height: 1.2;
+  font-style: normal;
+  list-style-type: none;
+}
+.company-logo span {
+  font-family: "raleway", sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+}
+.menu a,
+.contacts a {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+.hero {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #2f303a;
+}
+
+.features-header {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #212121;
+}
+
+.features-description {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.wha-we-do,
+.team-header {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.team-name {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.team-post {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.filter,
+.button-header {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.work-header {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+}
+.work-type {
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+}
+footer address {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}

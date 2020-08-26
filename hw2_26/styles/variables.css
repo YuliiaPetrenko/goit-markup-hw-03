@@ -1,0 +1,41 @@
+:root {
+    --black-black: #212121;
+}
+:root {
+    --notsoblack: #757575;
+}
+
+:root {
+    --blue: #2196f3;
+}
+:root {
+    --background: #e5e5e5;
+}
+:root {
+    --footer-color: #2f303a;
+}
+:root {
+    --transparent-white: rgba(255, 255, 255, 0.6);
+}
+:root {
+    --white: #fff;
+}
+body {
+    color: var(--black-black);
+}
+.menu [href] {
+    color: inherit;
+}
+
+header .contacts [href] {
+    color: var(--notsoblack);
+}
+footer .contacts [href] {
+    color: var(--transparent-white);
+}
+footer {
+    background-color: var(--footer-color);
+}
+html {
+    background-color: var(--background);
+}
